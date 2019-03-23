@@ -1,11 +1,3 @@
-/* 
-    Could be used to make random colors but don't know where to put it if I put it at line 100 or after line 31, the colors are random but same for all nodes and they keep changing all the times (which makes sense but is not waht I want)
-    
-            var colorNode = "#"+Math.floor(Math.random()*16777215).toString(16);
-            context.fillStyle= 'colorNode';
-
-*/
-
 
 /* function calculating the distance between to nodes using (x,y) coordinates. Distance(A,B) = sqrt((dxb-dxa)^2 + (dyb-dya)^2)) */
 function getDistance(vectorA, vectorB) {
@@ -150,8 +142,8 @@ class NodeGarden {
 
   update() {
     const { context, width, height } = this;
-    this.context.fillStyle ='#001340';
-    this.context.fillRect(0, 0, width, height);
+    this.context.fillStyle ='#001340'; /* choosing the "background" deep blue color */
+    this.context.fillRect(0, 0, width, height); /* feeling the "background with the color defined with fillStyle */
     this.render(context);
 
     requestAnimationFrame(this.update.bind(this));
