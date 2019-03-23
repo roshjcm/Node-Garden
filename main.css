@@ -1,0 +1,19 @@
+/* layout/base.css */
+
+body {
+    margin: 0;
+
+}
+
+/* modules/canvas.css */
+
+canvas {
+    height: auto;
+    max-width: 100%;
+    vertical-align: middle;
+}
+
+/* tried to link somehow css and js to change the color of a node but not sure how to do it at the moment so my-node is useless rn */
+.my-node {
+    color:var("#"+Math.floor(Math.random()*16777215).toString(16));
+}
