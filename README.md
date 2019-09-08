@@ -10,3 +10,4 @@ Originally Marco's node garden only had black nodes and black edges on a white '
 
 Enjoy! :)
 
+![](ScreenshotNodeGarden.png)
